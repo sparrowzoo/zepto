@@ -108,7 +108,7 @@ describe_version = ->
 minify = (source_code) ->
   uglify = require('uglify-js')
   compressor = uglify.Compressor()
-  ast = uglify.parse(source_code)
+  ast = uglify.parse(source_  code)
   ast.figure_out_scope()
   ast.compute_char_frequency()
   ast.mangle_names()

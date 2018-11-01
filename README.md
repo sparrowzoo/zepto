@@ -40,6 +40,16 @@ The resulting files are:
 1. `dist/zepto.js`
 2. `dist/zepto.min.js`
 
+gulp
+---
+    install gulp load plugins
+    
+```
+    npm install --save-dev gulp-load-plugins
+    
+```
+
+
 If you install CoffeeScript globally, you can run `make` directly:
 
 ~~~ sh
